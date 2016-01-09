@@ -1,7 +1,11 @@
 <?php
 /**
- * Copyright © 2015 Magento. All rights reserved.
- * See COPYING.txt for license details.
+ * Msd_Statistics extension
+ *
+ * @package   Msd_Statistics
+ * @copyright 2015 Anna Völkl
+ * @license   OSL-3.0 - See LICENSE.md for license details.
+ * @author    Anna Völkl <anna@voelkl.at>
  */
 
 namespace Msd\Statistics\Setup;
