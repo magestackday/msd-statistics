@@ -1,0 +1,25 @@
+{
+  "name": "msd/statistics",
+  "description": "Statistics Module for MageStackDay on Magento 2",
+  "type": "magento2-module",
+  "version": "0.0.1",
+  "license": [
+    "OSL-3.0"
+  ],
+  "require": {
+    "php": "~5.5.0|~5.6.0",
+    "magento/framework": "~1.0.0"
+  },
+  "repositories": [
+    {
+      "type": "git",
+      "url": "https://github.com/magestackday/msd-statistics.git"
+    }
+  ],
+  "autoload": {
+    "files": [ "registration.php" ],
+    "psr-4": {
+      "Msd\\Statistics\\": ""
+    }
+  }
+}
