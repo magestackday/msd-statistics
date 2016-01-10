@@ -46,8 +46,6 @@ class Statistics extends \Magento\Framework\View\Element\Template {
     public function getStatistics() {
 
         if (!$this->hasData('statistics')) {
-            var_dump($this->statisticsCollectionFactory);
-            return;
             $statistics = $this->statisticsCollectionFactory->create();
             /*
             $statistics->addOrder(

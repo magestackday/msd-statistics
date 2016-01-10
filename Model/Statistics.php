@@ -8,7 +8,7 @@
  * @author    Anna Völkl <anna@voelkl.at>
  */
 
-namespace Msd\Statistcs\Model;
+namespace Msd\Statistics\Model;
 
 use Msd\Statistics\Api\Data\StatisticsInterface;
 use Magento\Framework\DataObject\IdentityInterface;
