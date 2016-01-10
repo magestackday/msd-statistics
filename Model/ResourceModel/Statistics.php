@@ -41,7 +41,7 @@ class Statistics extends AbstractDb {
      * @return void
      */
     protected function _construct() {
-        $this->_init('msd_statistics', 'entity_id');
+        $this->_init('msd_statistics_statistics', 'entity_id');
     }
 
     /**

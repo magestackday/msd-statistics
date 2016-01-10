@@ -19,8 +19,7 @@ class Collection extends AbstractCollection {
      *
      * @return void
      */
-    protected function _construct()
-    {
+    protected function _construct() {
         $this->_init('Msd\Statistics\Model\Statistics', 'Msd\Statistics\Model\ResourceModel\Statistics');
     }
 

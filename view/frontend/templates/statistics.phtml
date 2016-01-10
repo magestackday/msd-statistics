@@ -1,7 +1,16 @@
 <p id="amcharts"></p>
 
 <script type="text/javascript">
-    requirejs(["Msd_Statistics/js/amcharts/amcharts"], function(util) {
-        document.getElementById("amcharts").innerHTML="amcharts loaded";
+    requirejs(["Msd_Statistics/js/amcharts/amcharts"], function (util) {
+        document.getElementById("amcharts").innerHTML = "amcharts loaded";
     });
 </script>
+
+<?php /** @var $block \Msd\Statistics\Block\Statistics */ ?>
+<ul class="statistics-list">
+    <?php /** @var $entry \Msd\Statistics\Model\Statistics */ ?>
+    <?php var_dump($block->getStatistics()); ?>
+    <?php /* foreach ($block->getStatistics() as $entry): ?>
+        <li><?php echo $entry->getDate(); ?></li>
+    <?php endforeach; */ ?>
+</ul>
