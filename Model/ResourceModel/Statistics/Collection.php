@@ -8,7 +8,7 @@
  * @author    Anna Völkl <anna@voelkl.at>
  */
 
-namespace Msd\Statistcs\Model\ResourceModel\Statistics;
+namespace Msd\Statistics\Model\ResourceModel\Statistics;
 
 use \Magento\Framework\Model\ResourceModel\Db\Collection\AbstractCollection;
 

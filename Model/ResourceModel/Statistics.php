@@ -8,7 +8,7 @@
  * @author    Anna Völkl <anna@voelkl.at>
  */
 
-namespace Msd\Statistcs\Model\ResourceModel;
+namespace Msd\Statistics\Model\ResourceModel;
 
 use Magento\Framework\Model\ResourceModel\Db\AbstractDb;
 
@@ -41,7 +41,7 @@ class Statistics extends AbstractDb {
      * @return void
      */
     protected function _construct() {
-        $this->_init('msd_statistics_statistics', 'entity_id');
+        $this->_init('msd_statistics', 'entity_id');
     }
 
     /**

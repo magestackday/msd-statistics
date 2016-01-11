@@ -9,8 +9,7 @@
 <?php /** @var $block \Msd\Statistics\Block\Statistics */ ?>
 <ul class="statistics-list">
     <?php /** @var $entry \Msd\Statistics\Model\Statistics */ ?>
-    <?php var_dump($block->getStatistics()); ?>
-    <?php /* foreach ($block->getStatistics() as $entry): ?>
+    <?php foreach ($block->getStatistics() as $entry): ?>
         <li><?php echo $entry->getDate(); ?></li>
-    <?php endforeach; */ ?>
+    <?php endforeach; ?>
 </ul>
